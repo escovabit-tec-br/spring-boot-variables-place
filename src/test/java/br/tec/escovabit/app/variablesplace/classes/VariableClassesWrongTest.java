@@ -11,21 +11,27 @@ public class VariableClassesWrongTest {
     @Test
     @DisplayName("phone")
     public void testPhone() {
-        assertEquals("phone", variableClassesWrong.phoneType(String.valueOf("12345678")));
+        assertEquals(
+                "phone",
+                variableClassesWrong.phoneType(String.valueOf("12345678")));
 
     }
 
     @Test
     @DisplayName("mobile")
     public void testMobile() {
-        assertEquals("mobile", variableClassesWrong.phoneType(String.valueOf("123456789")));
+        assertEquals(
+                "mobile",
+                variableClassesWrong.phoneType(String.valueOf("123456789")));
 
     }
 
     @Test
     @DisplayName("not phone")
     public void testNotPhone() {
-        assertEquals("not phone", variableClassesWrong.phoneType(String.valueOf("1234567890")));
+        assertEquals(
+                "not phone",
+                variableClassesWrong.phoneType(String.valueOf("1234567890")));
 
     }
 
