@@ -18,7 +18,7 @@ public class VariableBuildCorrectTest {
     private String mobile;
 
     /**
-     * Sem valor padrão para forçar vir de application.yml
+     * Sem valor padrão para forçar vir de bootstrap.yml
      */
     @Value("${app.config.phone.notPhone.msg}")
     private String notPhone;
